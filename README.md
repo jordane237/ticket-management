@@ -92,7 +92,7 @@ cd backend
 mvn spring-boot:run
 ```
 
-Code source 100% écrit par l'agent (aucun fichier pré-généré externe). Le datasource se configure via des variables facultatives (`DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`) dont les valeurs par défaut correspondent au compose ci-dessus.
+Le datasource du backend se configure par variables d'environnement facultatives (`DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`) ; leurs valeurs par défaut correspondent à la configuration Docker ci-dessus.
 
 ### 4.3 Frontend (port 5173)
 
